@@ -1,16 +1,23 @@
 {
-  "name": "test-dashboard",
+  "name": "test-react-selenium",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "assert": "^1.4.1",
+    "chromedriver": "^2.46.0",
+    "geckodriver": "^1.16.0",
+    "protractor": "^5.4.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "webdriverjs": "^1.7.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "s-test": "mocha test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "webdriver-manager": "^12.1.1"
+  }
 }
