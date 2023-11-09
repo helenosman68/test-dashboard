@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "assert": "^1.4.1",
-    "chromedriver": "^2.46.0",
+    "chromedriver": "^119.0.1",
     "geckodriver": "^1.16.0",
     "protractor": "^5.4.2",
     "react": "^16.8.4",
